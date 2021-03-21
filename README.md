@@ -1,5 +1,4 @@
 # PHP E-Mail Migration
-An email migration tool written in PHP utilizing [imapsync](https://github.com/imapsync/imapsync).
 
 ## General Infos
 This project is an email migration tool written in PHP utilizing [imapsync](https://github.com/imapsync/imapsync). It is a proof of concept you may edit and use as you please under the terms granted by the license.

@@ -38,7 +38,7 @@ $HOSTS = array(
 global $USERISEMAIL;
 $USERISEMAIL = array(
     'example.org' => true,
-	'example.com' => true
+    'example.com' => true
 );
 
 
@@ -54,7 +54,7 @@ global $BLOCKEDVALUES;
 $BLOCKEDVALUES = array(
     '\s',
     '\n',
-	' ',
+    ' ',
     'sudo ',
     'su ',
     'rm ',
