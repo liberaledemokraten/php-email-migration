@@ -70,7 +70,7 @@ Example:
 $BLOCKEDVALUES = array(
     '\s',
     '\n',
-	' ',
+    ' ',
     'sudo ',
     'su ',
     'rm ',
