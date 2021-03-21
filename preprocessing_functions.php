@@ -146,8 +146,8 @@ function getUsername($email, $userpart_array){
 function createImapsyncArgs($email1, $email2, $password1, $password2, $userpart_array, $hosts_array, $host1 = false, $host2 = false){
     $user1 = getUsername($email1, $userpart_array);
     $user2 = getUsername($email2, $userpart_array);
-	$host1 = hostOf($email1, $hosts_array, $host1);
-	$host2 = ($host2 == false)? hostOf($email1, $hosts_array, $host2) : $host2;
+    $host1 = hostOf($email1, $hosts_array, $host1);
+    $host2 = ($host2 == false)? hostOf($email1, $hosts_array, $host2) : $host2;
     return "--host1 ".$host1." --user1 ".$user1." --password1 ".$password1." --host2 ".$host2." --user2 ".$user2." --password2 ".$password2." --no-modulesversion --noid";
 }
 ?>

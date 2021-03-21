@@ -58,7 +58,7 @@ Example:
 ```php
 $USERISEMAIL = array(
     'example.org' => true,
-	'example.com' => true
+    'example.com' => true
 );
 ```
 
@@ -71,7 +71,7 @@ Example:
 $BLOCKEDVALUES = array(
     '\s',
     '\n',
-	' ',
+    ' ',
     'sudo ',
     'su ',
     'rm ',
