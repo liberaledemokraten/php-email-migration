@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <title>E-Mail Migration</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+
+<body>
+    <h2>E-Mail Migration</h2>
+    <form action="migrate.php" method="post">
+		Enter your e-mail data to migrate your e-mails from the source address to the target address.<br />
+		<label for="email1">Source E-Mail</label>
+		<input id="email1" name="email1" type="email" required><br />
+		<label for="password1">Password</label>
+		<input id="password1" name="password1" type="password" required><br />
+		<label>Provider</label>
+		<select id="host1" name="host1">
+			<option value="false">Auto Detect</option>
+			<option value="examplemail">Example Mail</option>
+		</select>
+        <hr><br />
+		<label for="email2">Target E-Mail</label>
+		<input id="email2" name="email2" type="email" required><br />
+		<label for="password2">Password</label>
+		<input id="password2" name="password2" type="password" required><br/>
+		<button type="submit">Submit</button>
+	</form>
+</body>
