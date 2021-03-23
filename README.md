@@ -92,7 +92,7 @@ The usage is pretty simple. Just send a `POST` or `GET` request to the PHP scrip
 Note: Theoretically, you could also send the data in form of cookies as the PHP script is using `$_REQUEST` and not looking for a specific method. But you shouldn't provide such data within cookies.
 
 ### Response
-Once a request has been sent, of-course an HTTP response will be delivered. Each response code has a different meaning. The remark "(initial)" means that this is a response to the initial request with the aim of starting a process. If that remark is missing, it means that the response is to a specific process identified cia the provided Action ID.
+Once a request has been sent, of-course an HTTP response will be delivered. Each response code has a different meaning. The remark "(initial)" means that this is a response to the initial request with the aim of starting a process. If that remark is missing, it means that the response is to a specific process identified via the provided Action ID.
 
 #### HTTP 202 Accepted (initial)
 This response means that the request has been accepted and the processing has started. The `Refresh` header as well as the added `url` header specifiy the URL under which you can request updates on the started process. That URL contains the Action ID parameter.
