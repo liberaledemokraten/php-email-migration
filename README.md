@@ -134,6 +134,6 @@ You should consider editing the content in `maintenance.php` before enabling the
 The PHP script and HTML form were written by [Kasim Dönmez](https://github.com/mkasimd) on behalf of the Liberale Demokraten - Die Sozialliberalen.
 
 ## Copyright
-Copyright © 2021 - present Liberale Demokraten - Die Sozialliberalen. Free use of this project's contents is granted under the terms of the GNU GPLv3 license. For the full text of the license, see the [LICENSE](LICENSE) file. The HTML file providing a sample form however is licensed under the Public Domain license such that you can use, modify and distribute it without any limitations of any sorts.
+Copyright © 2021 - present Liberale Demokraten - Die Sozialliberalen. Free use of this project's contents is granted under the terms of the GNU GPLv3 license. For the full text of the license, see the [LICENSE](LICENSE) file. The HTML file providing a sample form however is licensed under the [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) license such that you can use, modify and distribute it without any limitations of any sorts.
 
 The use of the resources provided by this project shall be done in a way that your modifications to the code, distribution thereof or use of the provided files does not imply any endorsement by the authors or copyright holders of this project. You shall not use this project or contents thereof in the name of the authors or copyright holders unless explicitly permitted.
